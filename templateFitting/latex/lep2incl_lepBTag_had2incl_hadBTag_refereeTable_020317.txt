@@ -1,0 +1,201 @@
+[?1034h$$$$$$$$$$$$$ 0.012 0.01 0.012 0.01
+$$$$$$$$$$$$$ 0.009 0.008 0.009 0.008
+stepUnc[0]:  0 current val:   -0.00247541914973
+stepUnc[0]:  6.12769996685e-06 current val:   0.00327237310788
+stepUnc[0]:  0 current val:   0.0104667782251
+stepUnc[0]:  0.000109553446413 current val:   -0.0215723065614
+stepUnc[0]:  0 current val:   -0.0381536855384
+stepUnc[0]:  0.00145570372016 current val:   0.0479776603681
+stepUnc[0]:  0 current val:   -0.0107981452522
+stepUnc[0]:  0.000116599940888 current val:   0.0178126168187
+
+### el+mu 2incl F0 ###
+\begin{table}[h!]
+\centering
+\begin{tabular}{lccccc}
+\hline\hline
+\multicolumn{6}{c}{\fo}\\
+\hline
+Systematic uncertainty & N$_{syst}$ & Lep 2incl & Lep 1excl+2incl & Had 2incl & Had 1excl+2incl \\\hline
+\multicolumn{5}{c}{Reconstructed Objects} \\\hline
+\multirow{2}{*}{Muon} & \multirow{2}{*}{6(3)} & +0.0024 & +0.0019 & +0.0032 & +0.0026 \\
+                      &                       & -0.0029 & -0.0016 & -0.0044 & -0.0037\\\hline
+\multirow{2}{*}{Electron} & \multirow{2}{*}{5(3)} & +0.0028 & +0.003 & +0.0028 & +0.0025 \\
+                      &                       & -0.003 & -0.0029 & -0.0028 & -0.0021\\\hline
+\multirow{2}{*}{JES} & \multirow{2}{*}{26(6)} & +0.0063 & +0.0136 & +0.0123 & +0.0069 \\
+                      &                       & -0.0033 & -0.0153 & -0.0105 & -0.007\\\hline
+\multirow{2}{*}{JER} & \multirow{2}{*}{11(11)} & +0.0062 & +0.0069 & +0.0245 & +0.0274 \\
+                      &                       & -0.0059 & -0.0069 & -0.0278 & -0.031\\\hline
+\multirow{2}{*}{JVF} & \multirow{2}{*}{1(1)} & +0.0036 & +0.0049 & +0.0152 & +0.0129 \\
+                      &                       & -0.0017 & -0.0051 & -0.0105 & -0.0092\\\hline
+\multirow{2}{*}{\bt tagging} & \multirow{2}{*}{3(3)} & +0.0017 & +0.0133 & +0.0052 & +0.0289 \\
+                      &                       & -0.0021 & -0.0124 & -0.0058 & -0.0307\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Reco Objects} & \multirow{2}{*}{-} & +0.0104 & +0.0211 & +0.032 & +0.0426 \\
+                      &                       & -0.0084 & -0.0218 & -0.0325 & -0.0454\\\hline
+
+\hline
+\multicolumn{5}{c}{Modeling} \\\hline
+\multirow{2}{*}{Radiation} & radLo & 0.0033 & -0.0216 & 0.048 & 0.0178\\
+                           & radHi & -0.0025 & 0.0105 & -0.0382 & -0.0108\\ \hline
+\multirow{2}{*}{Parton Shower} & \multirow{2}{*}{1(1)} & +0.0019 & +0.0012 & +0.0101 & +0.015 \\
+                      &                       & -0.0019 & -0.0012 & -0.0101 & -0.015\\\hline
+\multirow{2}{*}{ME Generator} & \multirow{2}{*}{1(1)} & +0.0025 & +0.0058 & +0.0311 & +0.0159 \\
+                      &                       & -0.0025 & -0.0058 & -0.0311 & -0.0159\\\hline
+\multirow{2}{*}{PDF} & \multirow{2}{*}{-} & +0.003 & +0.003 & +0.002 & +0.001 \\
+                      &                       & -0.003 & -0.003 & -0.002 & -0.001\\\hline
+\multirow{2}{*}{Top Mass} & \multirow{2}{*}{-} & +0.002 & +0.002 & +0.001 & +0.003 \\
+                      &                       & -0.002 & -0.002 & -0.001 & -0.003\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Modeling} & \multirow{2}{*}{-} & +0.0058 & +0.0227 & +0.0581 & +0.0284 \\
+                      &                       & -0.0058 & -0.0227 & -0.0581 & -0.0284\\\hline
+
+\hline
+\multicolumn{5}{c}{Method Uncertainty} \\\hline
+\multirow{2}{*}{Template Statistics} & \multirow{2}{*}{-} & +0.009 & +0.008 & +0.009 & +0.008 \\
+                      &                       & -0.009 & -0.008 & -0.009 & -0.008\\\hline
+
+\hline\hline
+\multirow{2}{*}{Total Syst.} & \multirow{2}{*}{-} & +0.0149 & +0.032 & +0.067 & +0.0518 \\
+                      &                       & -0.0136 & -0.0324 & -0.0672 & -0.0541\\\hline
+Stat. + Bkg. & - & 0.012 & 0.012 & 0.012 & 0.01 \\\hline
+
+\hline\hline
+\end{tabular}
+\end{table}
+$$$$$$$$$$$$$ 0.008 0.006 0.022 0.021
+$$$$$$$$$$$$$ 0.006 0.005 0.017 0.016
+stepUnc[0]:  0 current val:   0.0058409657722
+stepUnc[0]:  3.4116881152e-05 current val:   -0.00322008427557
+stepUnc[0]:  0 current val:   0.0028689995928
+stepUnc[0]:  8.23115866349e-06 current val:   0.00277898409397
+stepUnc[0]:  0 current val:   -0.00888370865459
+stepUnc[0]:  7.89202794596e-05 current val:   0.0375755351828
+stepUnc[0]:  0 current val:   -0.0114732756551
+stepUnc[0]:  0.000131636054258 current val:   0.039349495937
+
+### el+mu 2incl FL ###
+\begin{table}[h!]
+\centering
+\begin{tabular}{lccccc}
+\hline\hline
+\multicolumn{6}{c}{\fl}\\
+\hline
+Systematic uncertainty & N$_{syst}$ & Lep 2incl & Lep 1excl+2incl & Had 2incl & Had 1excl+2incl \\\hline
+\multicolumn{5}{c}{Reconstructed Objects} \\\hline
+\multirow{2}{*}{Muon} & \multirow{2}{*}{6(3)} & +0.0013 & +0.0007 & +0.0035 & +0.0046 \\
+                      &                       & -0.0015 & -0.0005 & -0.0038 & -0.0035\\\hline
+\multirow{2}{*}{Electron} & \multirow{2}{*}{5(3)} & +0.0018 & +0.0016 & +0.0023 & +0.0028 \\
+                      &                       & -0.002 & -0.0014 & -0.0027 & -0.0038\\\hline
+\multirow{2}{*}{JES} & \multirow{2}{*}{26(6)} & +0.0028 & +0.0043 & +0.0072 & +0.0119 \\
+                      &                       & -0.0025 & -0.0074 & -0.0081 & -0.0078\\\hline
+\multirow{2}{*}{JER} & \multirow{2}{*}{11(11)} & +0.0048 & +0.0099 & +0.0334 & +0.0329 \\
+                      &                       & -0.0018 & -0.0084 & -0.045 & -0.0407\\\hline
+\multirow{2}{*}{JVF} & \multirow{2}{*}{1(1)} & +0.0019 & +0.0026 & +0.0041 & +0.0012 \\
+                      &                       & -0.0013 & -0.0025 & -0.0062 & -0.0046\\\hline
+\multirow{2}{*}{\bt tagging} & \multirow{2}{*}{3(3)} & +0.0012 & +0.0035 & +0.0146 & +0.0132 \\
+                      &                       & -0.0013 & -0.0029 & -0.0152 & -0.0143\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Reco Objects} & \multirow{2}{*}{-} & +0.0064 & +0.0117 & +0.0376 & +0.0378 \\
+                      &                       & -0.0044 & -0.012 & -0.0488 & -0.0444\\\hline
+
+\hline
+\multicolumn{5}{c}{Modeling} \\\hline
+\multirow{2}{*}{Radiation} & radLo & -0.0032 & 0.0028 & 0.0376 & 0.0393\\
+                           & radHi & 0.0058 & 0.0029 & -0.0089 & -0.0115\\ \hline
+\multirow{2}{*}{Parton Shower} & \multirow{2}{*}{1(1)} & +0.0019 & +0.0051 & +0.0035 & +0.001 \\
+                      &                       & -0.0019 & -0.0051 & -0.0035 & -0.001\\\hline
+\multirow{2}{*}{ME Generator} & \multirow{2}{*}{1(1)} & +0.0032 & +0.0067 & +0.0253 & +0.0242 \\
+                      &                       & -0.0032 & -0.0067 & -0.0253 & -0.0242\\\hline
+\multirow{2}{*}{PDF} & \multirow{2}{*}{-} & +0.004 & +0.004 & +0.003 & +0.002 \\
+                      &                       & -0.004 & -0.004 & -0.003 & -0.002\\\hline
+\multirow{2}{*}{Top Mass} & \multirow{2}{*}{-} & +0.005 & +0.005 & +0.008 & +0.0095 \\
+                      &                       & -0.005 & -0.005 & -0.008 & -0.0095\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Modeling} & \multirow{2}{*}{-} & +0.0094 & +0.0109 & +0.0463 & +0.0472 \\
+                      &                       & -0.0094 & -0.0109 & -0.0463 & -0.0472\\\hline
+
+\hline
+\multicolumn{5}{c}{Method Uncertainty} \\\hline
+\multirow{2}{*}{Template Statistics} & \multirow{2}{*}{-} & +0.006 & +0.005 & +0.017 & +0.016 \\
+                      &                       & -0.006 & -0.005 & -0.017 & -0.016\\\hline
+
+\hline\hline
+\multirow{2}{*}{Total Syst.} & \multirow{2}{*}{-} & +0.0129 & +0.0168 & +0.062 & +0.0626 \\
+                      &                       & -0.012 & -0.017 & -0.0693 & -0.0667\\\hline
+Stat. + Bkg. & - & 0.008 & 0.022 & 0.022 & 0.021 \\\hline
+
+\hline\hline
+\end{tabular}
+\end{table}
+$$$$$$$$$$$$$ 0.006 0.005 0.023 0.022
+$$$$$$$$$$$$$ 0.004 0.004 0.017 0.016
+stepUnc[0]:  0 current val:   -0.00337990186379
+stepUnc[0]:  1.14237366089e-05 current val:   -5.78997749861e-05
+stepUnc[0]:  0 current val:   -0.0133253047019
+stepUnc[0]:  0.000177563745398 current val:   0.0188730841015
+stepUnc[0]:  0 current val:   0.0469538461135
+stepUnc[0]:  0.00220466366485 current val:   -0.0855482937506
+stepUnc[0]:  0 current val:   0.0219816787197
+stepUnc[0]:  0.000483194199336 current val:   -0.0573431465813
+
+### el+mu 2incl FR ###
+\begin{table}[h!]
+\centering
+\begin{tabular}{lccccc}
+\hline\hline
+\multicolumn{6}{c}{\fr}\\
+\hline
+Systematic uncertainty & N$_{syst}$ & Lep 2incl & Lep 1excl+2incl & Had 2incl & Had 1excl+2incl \\\hline
+\multicolumn{5}{c}{Reconstructed Objects} \\\hline
+\multirow{2}{*}{Muon} & \multirow{2}{*}{6(3)} & +0.001 & +0.0013 & +0.0068 & +0.0072 \\
+                      &                       & -0.0015 & -0.0012 & -0.0078 & -0.0072\\\hline
+\multirow{2}{*}{Electron} & \multirow{2}{*}{5(3)} & +0.0011 & +0.0015 & +0.0044 & +0.0051 \\
+                      &                       & -0.0011 & -0.0015 & -0.0052 & -0.0058\\\hline
+\multirow{2}{*}{JES} & \multirow{2}{*}{26(6)} & +0.0037 & +0.0094 & +0.0162 & +0.0139 \\
+                      &                       & -0.0014 & -0.0081 & -0.0086 & -0.0054\\\hline
+\multirow{2}{*}{JER} & \multirow{2}{*}{11(11)} & +0.0072 & +0.004 & +0.0569 & +0.0573 \\
+                      &                       & -0.0067 & -0.0023 & -0.0718 & -0.0707\\\hline
+\multirow{2}{*}{JVF} & \multirow{2}{*}{1(1)} & +0.0017 & +0.0023 & +0.011 & +0.0114 \\
+                      &                       & -0.0006 & -0.0026 & -0.0046 & -0.0045\\\hline
+\multirow{2}{*}{\bt tagging} & \multirow{2}{*}{3(3)} & +0.0011 & +0.0098 & +0.0185 & +0.0336 \\
+                      &                       & -0.0012 & -0.0096 & -0.0197 & -0.0349\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Reco Objects} & \multirow{2}{*}{-} & +0.0085 & +0.0145 & +0.0635 & +0.0694 \\
+                      &                       & -0.0072 & -0.0132 & -0.0757 & -0.0797\\\hline
+
+\hline
+\multicolumn{5}{c}{Modeling} \\\hline
+\multirow{2}{*}{Radiation} & radLo & -0.0001 & 0.0189 & -0.0855 & -0.0573\\
+                           & radHi & -0.0034 & -0.0133 & 0.047 & 0.022\\ \hline
+\multirow{2}{*}{Parton Shower} & \multirow{2}{*}{1(1)} & +0.0037 & +0.0038 & +0.0065 & +0.0144 \\
+                      &                       & -0.0037 & -0.0038 & -0.0065 & -0.0144\\\hline
+\multirow{2}{*}{ME Generator} & \multirow{2}{*}{1(1)} & +0.0057 & +0.0008 & +0.0564 & +0.0401 \\
+                      &                       & -0.0057 & -0.0008 & -0.0564 & -0.0401\\\hline
+\multirow{2}{*}{PDF} & \multirow{2}{*}{-} & +0.001 & +0.001 & +0.002 & +0.002 \\
+                      &                       & -0.001 & -0.001 & -0.002 & -0.002\\\hline
+\multirow{2}{*}{Top Mass} & \multirow{2}{*}{-} & +0.003 & +0.003 & +0.007 & +0.0068 \\
+                      &                       & -0.003 & -0.003 & -0.007 & -0.0068\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Modeling} & \multirow{2}{*}{-} & +0.0082 & +0.0195 & +0.1029 & +0.0718 \\
+                      &                       & -0.0082 & -0.0195 & -0.1029 & -0.0718\\\hline
+
+\hline
+\multicolumn{5}{c}{Method Uncertainty} \\\hline
+\multirow{2}{*}{Template Statistics} & \multirow{2}{*}{-} & +0.004 & +0.004 & +0.017 & +0.016 \\
+                      &                       & -0.004 & -0.004 & -0.017 & -0.016\\\hline
+
+\hline\hline
+\multirow{2}{*}{Total Syst.} & \multirow{2}{*}{-} & +0.0125 & +0.0247 & +0.1221 & +0.1011 \\
+                      &                       & -0.0116 & -0.0239 & -0.1289 & -0.1085\\\hline
+Stat. + Bkg. & - & 0.006 & 0.023 & 0.023 & 0.022 \\\hline
+
+\hline\hline
+\end{tabular}
+\end{table}

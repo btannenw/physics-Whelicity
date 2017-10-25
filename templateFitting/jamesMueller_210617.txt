@@ -1,0 +1,355 @@
+\documentclass{article}
+
+\newcommand*{\fo}{\ensuremath{F_{\mathrm{0}}}\xspace}
+\newcommand*{\fl}{\ensuremath{F_{\mathrm{L}}}\xspace}
+\newcommand*{\fr}{\ensuremath{F_{\mathrm{R}}}\xspace}
+
+\begin{document}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcccc}
+\hline\hline
+\multicolumn{5}{c}{\fo}\\\hline
+Systematic uncertainty & Up/Down & Leptonic 2incl & Had 1excl+2incl & Lep+Had 1excl+2incl \\\hline
+\multicolumn{5}{c}{Modeling} \\ \hline
+\multirow{2}{*}{ME Generator}  &  & \multirow{2}{*}{0.0025} & \multirow{2}{*}{0.0159} & \multirow{2}{*}{0.0019}   \\ \\ \hline
+\multirow{2}{*}{Parton Shower}  &  & \multirow{2}{*}{-0.0019} & \multirow{2}{*}{0.015} & \multirow{2}{*}{0.0072}   \\ \\ \hline
+\multirow{2}{*}{Radiation}      & radHi   &     -0.0025     &     -0.0108     &     0.0025     \\
+                          & radLo &     0.0033     &     0.0178     &     -0.0079         \\ \hline
+\multicolumn{5}{c}{Reconstructed Objects} \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_0}      & up   &     -0.0001     &     -0.0012     &     -0.0003      \\
+                                       & down &     0.0     &     0.0001     &     0.0003       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_1}      & up   &     -0.001     &     0.0014     &     0.0014      \\
+                                       & down &     0.0008     &     -0.0026     &     -0.0013       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_2}      & up   &     0.0001     &     -0.0069     &     -0.0047      \\
+                                       & down &     -0.0004     &     0.0059     &     0.0047       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_3}      & up   &     0.0005     &     0.0081     &     0.0064      \\
+                                       & down &     -0.0011     &     -0.0093     &     -0.0062       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_4}      & up   &     0.0005     &     -0.0005     &     0.0001      \\
+                                       & down &     -0.0008     &     -0.0006     &     0.0001       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_5}      & up   &     -0.0001     &     0.0246     &     0.0187      \\
+                                       & down &     0.0004     &     -0.0262     &     -0.0186       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_0}      & up   &     -0.0005     &     -0.0009     &     -0.0002      \\
+                                       & down &     -0.0003     &     -0.0003     &     0.0004       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_1}      & up   &     0.0005     &     0.004     &     0.0029      \\
+                                       & down &     -0.0004     &     -0.0051     &     -0.0026       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_2}      & up   &     0.0001     &     -0.0022     &     -0.001      \\
+                                       & down &     0.0001     &     0.0011     &     0.001       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_3}      & up   &     0.0006     &     0.0076     &     0.0047      \\
+                                       & down &     -0.0006     &     -0.0084     &     -0.0048       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_0}      & up   &     -0.0002     &     -0.0007     &     -0.0002      \\
+                                       & down &     -0.0003     &     -0.0003     &     0.0       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_1}      & up   &     -0.0003     &     -0.0003     &     0.0001      \\
+                                       & down &     -0.0     &     -0.0011     &     -0.0       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_10}      & up   &     -0.0002     &     -0.0016     &     -0.0005      \\
+                                       & down &     0.0001     &     0.0015     &     0.0008       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_11}      & up   &     -0.0005     &     -0.0053     &     -0.0026      \\
+                                       & down &     0.0008     &     0.0047     &     0.0024       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_2}      & up   &     0.0002     &     -0.0009     &     -0.0002      \\
+                                       & down &     0.0001     &     -0.0012     &     -0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_3}      & up   &     -0.0     &     -0.0005     &     0.0001      \\
+                                       & down &     -0.0003     &     -0.0007     &     0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_4}      & up   &     -0.0001     &     -0.0008     &     -0.0004      \\
+                                       & down &     -0.0001     &     -0.0001     &     0.0       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_5}      & up   &     -0.0     &     -0.0007     &     0.0      \\
+                                       & down &     -0.0001     &     -0.0004     &     0.0001       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_6}      & up   &     -0.0001     &     0.0003     &     0.0004      \\
+                                       & down &     -0.0002     &     -0.0008     &     -0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_7}      & up   &     -0.0     &     -0.0003     &     -0.0      \\
+                                       & down &     -0.0003     &     -0.0002     &     0.0003       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_8}      & up   &     0.0001     &     0.0001     &     0.0003      \\
+                                       & down &     -0.0002     &     -0.0006     &     -0.0003       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_9}      & up   &     0.0     &     0.001     &     0.0007      \\
+                                       & down &     0.0001     &     -0.0013     &     -0.0006       \\ \hline
+\multirow{2}{*}{ELE\_ID}      & up   &     -0.0028     &     -0.0023     &     -0.0026      \\
+                                       & down &     0.003     &     0.0021     &     0.0029       \\ \hline
+\multirow{2}{*}{ELE\_RECO}      & up   &     -0.0003     &     -0.0007     &     -0.0003      \\
+                                       & down &     0.0002     &     -0.0001     &     0.0003       \\ \hline
+\multirow{2}{*}{ELE\_TRIGGER}      & up   &     -0.0003     &     -0.0008     &     -0.0003      \\
+                                       & down &     0.0     &     0.0004     &     0.0005       \\ \hline
+\multirow{2}{*}{MUON\_ID}      & up   &     0.0006     &     0.001     &     0.0007      \\
+                                       & down &     -0.0009     &     -0.0014     &     -0.0007       \\ \hline
+\multirow{2}{*}{MUON\_RECO}      & up   &     0.0     &     -0.0002     &     0.0004      \\
+                                       & down &     -0.0003     &     -0.0009     &     -0.0003       \\ \hline
+\multirow{2}{*}{MUON\_TRIGGER}      & up   &     0.0024     &     0.0024     &     0.0025      \\
+                                       & down &     -0.0028     &     -0.0034     &     -0.0025       \\ \hline
+\multirow{2}{*}{jer\_DataMC\_Difference}  &  & \multirow{2}{*}{-0.0021} & \multirow{2}{*}{-0.0096}  & \multirow{2}{*}{-0.0026}  \\  \\ \hline
+\multirow{2}{*}{jer\_NP0}      & up   &     0.0013     &     -0.0043     &     0.0002      \\
+                                       & down &     -0.0021     &     -0.0096     &     -0.0026       \\ \hline
+\multirow{2}{*}{jer\_NP1}      & up   &     -0.0021     &     -0.0101     &     -0.0026      \\
+                                       & down &     -0.0019     &     -0.0088     &     -0.0021       \\ \hline
+\multirow{2}{*}{jer\_NP2}      & up   &     -0.0013     &     -0.0069     &     -0.0028      \\
+                                       & down &     -0.0018     &     -0.0104     &     -0.0025       \\ \hline
+\multirow{2}{*}{jer\_NP3}      & up   &     -0.0025     &     -0.0096     &     -0.0019      \\
+                                       & down &     -0.0004     &     -0.0077     &     -0.0021       \\ \hline
+\multirow{2}{*}{jer\_NP4}      & up   &     -0.0013     &     -0.0098     &     -0.0022      \\
+                                       & down &     -0.0024     &     -0.0101     &     -0.0015       \\ \hline
+\multirow{2}{*}{jer\_NP5}      & up   &     -0.002     &     -0.0117     &     -0.0031      \\
+                                       & down &     -0.0018     &     -0.0084     &     -0.0018       \\ \hline
+\multirow{2}{*}{jer\_NP6}      & up   &     -0.0025     &     -0.0094     &     -0.0019      \\
+                                       & down &     -0.0006     &     -0.0088     &     -0.0014       \\ \hline
+\multirow{2}{*}{jer\_NP7}      & up   &     -0.0028     &     -0.0086     &     -0.0022      \\
+                                       & down &     -0.0013     &     -0.0091     &     -0.0011       \\ \hline
+\multirow{2}{*}{jer\_NP8}      & up   &     -0.0021     &     -0.0097     &     -0.0024      \\
+                                       & down &     -0.0018     &     -0.0092     &     -0.0013       \\ \hline
+\multirow{2}{*}{jer\_Noise\_ForwardRegion}  &  & \multirow{2}{*}{-0.002} & \multirow{2}{*}{-0.0104}  & \multirow{2}{*}{-0.0027}  \\  \\ \hline
+\multirow{2}{*}{jes\_EtaIntercalibration\_TotalStat}      & up   &     -0.0007     &     0.0013     &     -0.0      \\
+                                       & down &     -0.0007     &     -0.0026     &     -0.0004       \\ \hline
+\multirow{2}{*}{jes\_FlavourComp}      & up   &     -0.0042     &     0.0054     &     -0.0035      \\
+                                       & down &     0.0018     &     -0.003     &     0.0044       \\ \hline
+\multirow{2}{*}{jes\_FlavourResponse}      & up   &     -0.0024     &     0.0038     &     0.0031      \\
+                                       & down &     -0.0005     &     -0.0056     &     -0.003       \\ \hline
+\multirow{2}{*}{jes\_Modelling1}      & up   &     -0.003     &     -0.0005     &     -0.0053      \\
+                                       & down &     0.0014     &     0.0016     &     0.0058       \\ \hline
+\multirow{2}{*}{jes\_RhoTopology}      & up   &     -0.0021     &     0.0014     &     -0.0025      \\
+                                       & down &     0.0022     &     -0.0003     &     0.0039       \\ \hline
+\multirow{2}{*}{jes\_Statistical1}      & up   &     -0.0015     &     -0.0002     &     -0.0018      \\
+                                       & down &     0.0006     &     -0.0003     &     0.0016       \\ \hline
+\multirow{2}{*}{jvf}      & up   &     -0.0036     &     -0.0129     &     -0.0025      \\
+                                       & down &     -0.0017     &     0.0092     &     0.0015       \\ \hline
+
+\hline\hline
+\multirow{2}{*}{JER} & \multirow{2}{*}{11(11)} & +0.0062 & +0.0274 & +0.0068\\
+                      &                       & -0.0059 & -0.031 & -0.0068\\\hline
+
+\hline\hline
+\multirow{2}{*}{Total Syst.} & \multirow{2}{*}{-} & +0.0149 & +0.0518 & +0.027\\
+                      &                       & -0.0136 & -0.0541 & -0.0271\\\hline
+\end{tabular}
+\end{table}
+
+
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcccc}
+\hline\hline
+\multicolumn{5}{c}{\fl}\\\hline
+Systematic uncertainty & Up/Down & Leptonic 2incl & Had 1excl+2incl & Lep+Had 1excl+2incl \\\hline
+\multicolumn{5}{c}{Modeling} \\ \hline
+\multirow{2}{*}{ME Generator}  &  & \multirow{2}{*}{0.0032} & \multirow{2}{*}{0.0242} & \multirow{2}{*}{0.0016}   \\ \\ \hline
+\multirow{2}{*}{Parton Shower}  &  & \multirow{2}{*}{-0.0019} & \multirow{2}{*}{-0.001} & \multirow{2}{*}{-0.0086}   \\ \\ \hline
+\multirow{2}{*}{Radiation}      & radHi   &     0.0058     &     -0.0115     &     0.0076     \\
+                          & radLo &     -0.0032     &     0.0393     &     -0.006         \\ \hline
+\multicolumn{5}{c}{Reconstructed Objects} \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_0}      & up   &     0.0001     &     -0.0003     &     0.0      \\
+                                       & down &     -0.0002     &     0.0007     &     -0.0003       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_1}      & up   &     0.0007     &     -0.0019     &     -0.0004      \\
+                                       & down &     -0.0007     &     0.0019     &     0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_2}      & up   &     -0.0003     &     0.0021     &     0.0015      \\
+                                       & down &     0.0004     &     -0.0023     &     -0.0017       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_3}      & up   &     -0.0006     &     -0.0007     &     -0.0027      \\
+                                       & down &     0.0007     &     0.0007     &     0.0024       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_4}      & up   &     -0.0006     &     0.0     &     -0.0003      \\
+                                       & down &     0.0006     &     0.0005     &     0.0       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_5}      & up   &     -0.0002     &     -0.0013     &     -0.0072      \\
+                                       & down &     -0.0002     &     0.0022     &     0.0069       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_0}      & up   &     0.0003     &     0.002     &     0.0001      \\
+                                       & down &     -0.0     &     -0.0021     &     -0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_1}      & up   &     -0.0002     &     0.0014     &     -0.0012      \\
+                                       & down &     0.0     &     -0.0013     &     0.0009       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_2}      & up   &     0.0     &     0.0025     &     0.0003      \\
+                                       & down &     -0.0     &     -0.0012     &     -0.0004       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_3}      & up   &     -0.0001     &     0.0078     &     -0.0019      \\
+                                       & down &     0.0001     &     -0.0075     &     0.0017       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_0}      & up   &     0.0001     &     -0.0     &     0.0      \\
+                                       & down &     0.0     &     -0.0004     &     -0.0001       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_1}      & up   &     0.0001     &     0.0005     &     -0.0002      \\
+                                       & down &     -0.0001     &     0.0001     &     -0.0       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_10}      & up   &     0.0001     &     -0.0033     &     0.0002      \\
+                                       & down &     0.0001     &     0.0039     &     -0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_11}      & up   &     -0.0001     &     -0.0086     &     0.0006      \\
+                                       & down &     -0.0002     &     0.0103     &     -0.0007       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_2}      & up   &     -0.0     &     0.0     &     0.0001      \\
+                                       & down &     -0.0001     &     0.0001     &     -0.0       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_3}      & up   &     0.0     &     -0.0004     &     -0.0001      \\
+                                       & down &     0.0002     &     0.0001     &     -0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_4}      & up   &     0.0     &     0.0004     &     0.0002      \\
+                                       & down &     -0.0     &     -0.0006     &     -0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_5}      & up   &     -0.0001     &     -0.0012     &     -0.0001      \\
+                                       & down &     0.0     &     0.0008     &     -0.0001       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_6}      & up   &     0.0001     &     0.0009     &     -0.0001      \\
+                                       & down &     0.0002     &     0.0004     &     -0.0       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_7}      & up   &     -0.0     &     0.0002     &     -0.0001      \\
+                                       & down &     0.0001     &     0.0004     &     -0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_8}      & up   &     -0.0001     &     0.0019     &     -0.0002      \\
+                                       & down &     0.0001     &     -0.0013     &     -0.0       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_9}      & up   &     0.0001     &     0.0002     &     -0.0004      \\
+                                       & down &     -0.0001     &     0.001     &     0.0002       \\ \hline
+\multirow{2}{*}{ELE\_ID}      & up   &     0.0018     &     -0.0028     &     0.0011      \\
+                                       & down &     -0.002     &     0.0034     &     -0.0014       \\ \hline
+\multirow{2}{*}{ELE\_RECO}      & up   &     0.0002     &     0.0005     &     0.0002      \\
+                                       & down &     -0.0003     &     0.0003     &     -0.0003       \\ \hline
+\multirow{2}{*}{ELE\_TRIGGER}      & up   &     0.0     &     -0.0002     &     -0.0001      \\
+                                       & down &     0.0002     &     0.0015     &     0.0       \\ \hline
+\multirow{2}{*}{MUON\_ID}      & up   &     -0.0002     &     0.0014     &     -0.0003      \\
+                                       & down &     0.0003     &     -0.0014     &     0.0002       \\ \hline
+\multirow{2}{*}{MUON\_RECO}      & up   &     -0.0001     &     0.0005     &     -0.0002      \\
+                                       & down &     0.0     &     -0.0006     &     -0.0001       \\ \hline
+\multirow{2}{*}{MUON\_TRIGGER}      & up   &     -0.0012     &     0.0044     &     -0.001      \\
+                                       & down &     0.0015     &     -0.0031     &     0.0008       \\ \hline
+\multirow{2}{*}{jer\_DataMC\_Difference}  &  & \multirow{2}{*}{0.0002} & \multirow{2}{*}{-0.0114}  & \multirow{2}{*}{0.0007}  \\  \\ \hline
+\multirow{2}{*}{jer\_NP0}      & up   &     -0.0044     &     0.0026     &     -0.0038      \\
+                                       & down &     0.0002     &     -0.0114     &     0.0007       \\ \hline
+\multirow{2}{*}{jer\_NP1}      & up   &     0.0002     &     -0.0122     &     0.0005      \\
+                                       & down &     -0.0003     &     -0.0099     &     -0.0003       \\ \hline
+\multirow{2}{*}{jer\_NP2}      & up   &     -0.0016     &     0.0071     &     -0.0014      \\
+                                       & down &     0.0     &     -0.0125     &     0.0007       \\ \hline
+\multirow{2}{*}{jer\_NP3}      & up   &     0.0001     &     -0.0145     &     0.0      \\
+                                       & down &     -0.0012     &     -0.0014     &     -0.0004       \\ \hline
+\multirow{2}{*}{jer\_NP4}      & up   &     -0.0001     &     -0.0141     &     0.0004      \\
+                                       & down &     -0.0006     &     -0.0143     &     -0.001       \\ \hline
+\multirow{2}{*}{jer\_NP5}      & up   &     -0.0004     &     -0.0048     &     0.0008      \\
+                                       & down &     -0.0003     &     -0.0125     &     -0.0004       \\ \hline
+\multirow{2}{*}{jer\_NP6}      & up   &     0.0004     &     -0.013     &     0.0003      \\
+                                       & down &     -0.0009     &     -0.0131     &     -0.0004       \\ \hline
+\multirow{2}{*}{jer\_NP7}      & up   &     -0.0     &     -0.012     &     -0.0002      \\
+                                       & down &     -0.0005     &     -0.0133     &     -0.0003       \\ \hline
+\multirow{2}{*}{jer\_NP8}      & up   &     0.0002     &     -0.0114     &     0.0006      \\
+                                       & down &     -0.0001     &     -0.0156     &     -0.0001       \\ \hline
+\multirow{2}{*}{jer\_Noise\_ForwardRegion}  &  & \multirow{2}{*}{0.0003} & \multirow{2}{*}{-0.0137}  & \multirow{2}{*}{0.0007}  \\  \\ \hline
+\multirow{2}{*}{jes\_EtaIntercalibration\_TotalStat}      & up   &     0.0001     &     -0.0022     &     -0.0009      \\
+                                       & down &     0.0002     &     -0.0002     &     0.0001       \\ \hline
+\multirow{2}{*}{jes\_FlavourComp}      & up   &     0.0017     &     0.0034     &     -0.0009      \\
+                                       & down &     -0.0013     &     0.0029     &     -0.0012       \\ \hline
+\multirow{2}{*}{jes\_FlavourResponse}      & up   &     0.0013     &     -0.0031     &     -0.0014      \\
+                                       & down &     -0.0002     &     0.0055     &     0.0003       \\ \hline
+\multirow{2}{*}{jes\_Modelling1}      & up   &     0.0013     &     0.0103     &     0.0008      \\
+                                       & down &     -0.0008     &     -0.0025     &     -0.002       \\ \hline
+\multirow{2}{*}{jes\_RhoTopology}      & up   &     0.0009     &     0.0027     &     -0.0005      \\
+                                       & down &     -0.0018     &     -0.0014     &     -0.0018       \\ \hline
+\multirow{2}{*}{jes\_Statistical1}      & up   &     0.0008     &     0.0015     &     0.0004      \\
+                                       & down &     -0.0008     &     -0.0036     &     -0.0011       \\ \hline
+\multirow{2}{*}{jvf}      & up   &     0.0019     &     0.0012     &     0.0021      \\
+                                       & down &     0.0013     &     -0.0046     &     -0.0017       \\ \hline
+
+\hline\hline
+\multirow{2}{*}{JER} & \multirow{2}{*}{11(11)} & +0.0048 & +0.0329 & +0.0043\\
+                      &                       & -0.0018 & -0.0407 & -0.0019\\\hline
+
+\hline\hline
+\multirow{2}{*}{Total Syst.} & \multirow{2}{*}{-} & +0.0129 & +0.0626 & +0.0163\\
+                      &                       & -0.012 & -0.0667 & -0.0158\\\hline
+\end{tabular}
+\end{table}
+
+
+
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcccc}
+\hline\hline
+\multicolumn{5}{c}{\fr}\\\hline
+Systematic uncertainty & Up/Down & Leptonic 2incl & Had 1excl+2incl & Lep+Had 1excl+2incl \\\hline
+\multicolumn{5}{c}{Modeling} \\ \hline
+\multirow{2}{*}{ME Generator}  &  & \multirow{2}{*}{-0.0057} & \multirow{2}{*}{-0.0401} & \multirow{2}{*}{-0.0033}   \\ \\ \hline
+\multirow{2}{*}{Parton Shower}  &  & \multirow{2}{*}{0.0037} & \multirow{2}{*}{-0.0144} & \multirow{2}{*}{0.0013}   \\ \\ \hline
+\multirow{2}{*}{Radiation}      & radHi   &     -0.0034     &     0.022     &     -0.0101     \\
+                          & radLo &     -0.0001     &     -0.0573     &     0.014         \\ \hline
+\multicolumn{5}{c}{Reconstructed Objects} \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_0}      & up   &     0.0     &     0.0018     &     0.0003      \\
+                                       & down &     0.0001     &     -0.001     &     -0.0001       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_1}      & up   &     0.0002     &     0.0003     &     -0.0011      \\
+                                       & down &     -0.0     &     0.0011     &     0.0011       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_2}      & up   &     0.0003     &     0.0048     &     0.0031      \\
+                                       & down &     0.0001     &     -0.0035     &     -0.003       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_3}      & up   &     -0.0     &     -0.0076     &     -0.0038      \\
+                                       & down &     0.0004     &     0.0084     &     0.0038       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_4}      & up   &     0.0001     &     0.0003     &     0.0002      \\
+                                       & down &     0.0001     &     0.0001     &     -0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_bTagVar\_5}      & up   &     0.0003     &     -0.0232     &     -0.0115      \\
+                                       & down &     -0.0002     &     0.0238     &     0.0116       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_0}      & up   &     0.0003     &     -0.0013     &     0.0002      \\
+                                       & down &     0.0002     &     0.0024     &     -0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_1}      & up   &     -0.0003     &     -0.0056     &     -0.0017      \\
+                                       & down &     0.0004     &     0.0062     &     0.0018       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_2}      & up   &     0.0001     &     -0.0001     &     0.0007      \\
+                                       & down &     0.0001     &     0.0003     &     -0.0006       \\ \hline
+\multirow{2}{*}{BTAG\_cTagVar\_3}      & up   &     -0.0005     &     -0.0156     &     -0.0029      \\
+                                       & down &     0.0007     &     0.0162     &     0.0029       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_0}      & up   &     0.0002     &     0.0005     &     0.0001      \\
+                                       & down &     0.0001     &     0.0007     &     0.0001       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_1}      & up   &     0.0002     &     -0.0     &     -0.0      \\
+                                       & down &     0.0002     &     0.0009     &     0.0       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_10}      & up   &     0.0002     &     0.005     &     0.0004      \\
+                                       & down &     -0.0     &     -0.0053     &     -0.0005       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_11}      & up   &     0.0006     &     0.014     &     0.0018      \\
+                                       & down &     -0.0006     &     -0.0149     &     -0.0018       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_2}      & up   &     0.0     &     0.0006     &     0.0001      \\
+                                       & down &     0.0001     &     0.0011     &     0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_3}      & up   &     0.0001     &     0.0008     &     0.0      \\
+                                       & down &     0.0003     &     0.0005     &     -0.0       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_4}      & up   &     0.0001     &     0.0005     &     0.0002      \\
+                                       & down &     0.0001     &     0.0007     &     0.0001       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_5}      & up   &     0.0001     &     0.0018     &     0.0      \\
+                                       & down &     0.0001     &     -0.0003     &     -0.0       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_6}      & up   &     0.0001     &     -0.0009     &     -0.0002      \\
+                                       & down &     0.0002     &     0.0003     &     0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_7}      & up   &     0.0001     &     0.0     &     0.0001      \\
+                                       & down &     0.0001     &     0.0001     &     -0.0001       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_8}      & up   &     -0.0     &     -0.0022     &     -0.0002      \\
+                                       & down &     0.0002     &     0.0018     &     0.0002       \\ \hline
+\multirow{2}{*}{BTAG\_misTagVar\_9}      & up   &     -0.0001     &     -0.0011     &     -0.0003      \\
+                                       & down &     0.0001     &     0.0004     &     0.0003       \\ \hline
+\multirow{2}{*}{ELE\_ID}      & up   &     0.001     &     0.005     &     0.0014      \\
+                                       & down &     -0.0011     &     -0.0054     &     -0.0016       \\ \hline
+\multirow{2}{*}{ELE\_RECO}      & up   &     0.0001     &     0.0     &     0.0001      \\
+                                       & down &     -0.0     &     -0.0003     &     -0.0001       \\ \hline
+\multirow{2}{*}{ELE\_TRIGGER}      & up   &     0.0003     &     0.001     &     0.0004      \\
+                                       & down &     -0.0002     &     -0.0019     &     -0.0005       \\ \hline
+\multirow{2}{*}{MUON\_ID}      & up   &     -0.0002     &     -0.0024     &     -0.0004      \\
+                                       & down &     0.0005     &     0.0026     &     0.0005       \\ \hline
+\multirow{2}{*}{MUON\_RECO}      & up   &     -0.0     &     -0.0005     &     -0.0002      \\
+                                       & down &     0.0002     &     0.0016     &     0.0003       \\ \hline
+\multirow{2}{*}{MUON\_TRIGGER}      & up   &     -0.001     &     -0.0068     &     -0.0014      \\
+                                       & down &     0.0013     &     0.0066     &     0.0016       \\ \hline
+\multirow{2}{*}{jer\_DataMC\_Difference}  &  & \multirow{2}{*}{0.0019} & \multirow{2}{*}{0.021}  & \multirow{2}{*}{0.0017}  \\  \\ \hline
+\multirow{2}{*}{jer\_NP0}      & up   &     0.0031     &     0.0018     &     0.0035      \\
+                                       & down &     0.0019     &     0.021     &     0.0017       \\ \hline
+\multirow{2}{*}{jer\_NP1}      & up   &     0.0019     &     0.022     &     0.002      \\
+                                       & down &     0.002     &     0.0187     &     0.0024       \\ \hline
+\multirow{2}{*}{jer\_NP2}      & up   &     0.003     &     -0.0001     &     0.0041      \\
+                                       & down &     0.0017     &     0.0225     &     0.0017       \\ \hline
+\multirow{2}{*}{jer\_NP3}      & up   &     0.0025     &     0.0242     &     0.0019      \\
+                                       & down &     0.0015     &     0.009     &     0.0025       \\ \hline
+\multirow{2}{*}{jer\_NP4}      & up   &     0.0014     &     0.0236     &     0.0018      \\
+                                       & down &     0.0031     &     0.0243     &     0.0025       \\ \hline
+\multirow{2}{*}{jer\_NP5}      & up   &     0.0026     &     0.0166     &     0.0023      \\
+                                       & down &     0.0023     &     0.0208     &     0.0021       \\ \hline
+\multirow{2}{*}{jer\_NP6}      & up   &     0.0021     &     0.0222     &     0.0016      \\
+                                       & down &     0.0016     &     0.0217     &     0.0018       \\ \hline
+\multirow{2}{*}{jer\_NP7}      & up   &     0.0028     &     0.0207     &     0.0024      \\
+                                       & down &     0.0017     &     0.0222     &     0.0013       \\ \hline
+\multirow{2}{*}{jer\_NP8}      & up   &     0.0019     &     0.0212     &     0.0018      \\
+                                       & down &     0.002     &     0.0248     &     0.0013       \\ \hline
+\multirow{2}{*}{jer\_Noise\_ForwardRegion}  &  & \multirow{2}{*}{0.0019} & \multirow{2}{*}{0.024}  & \multirow{2}{*}{0.002}  \\  \\ \hline
+\multirow{2}{*}{jes\_EtaIntercalibration\_TotalStat}      & up   &     0.0006     &     0.0006     &     0.0008      \\
+                                       & down &     0.0006     &     0.0027     &     0.0002       \\ \hline
+\multirow{2}{*}{jes\_FlavourComp}      & up   &     0.0026     &     -0.0089     &     0.0044      \\
+                                       & down &     -0.0003     &     -0.0     &     -0.0033       \\ \hline
+\multirow{2}{*}{jes\_FlavourResponse}      & up   &     0.0011     &     -0.0007     &     -0.0017      \\
+                                       & down &     0.0008     &     0.0002     &     0.0027       \\ \hline
+\multirow{2}{*}{jes\_Modelling1}      & up   &     0.0018     &     -0.0097     &     0.0045      \\
+                                       & down &     -0.0007     &     0.0013     &     -0.0038       \\ \hline
+\multirow{2}{*}{jes\_RhoTopology}      & up   &     0.0012     &     -0.0042     &     0.0029      \\
+                                       & down &     -0.0005     &     0.0019     &     -0.0021       \\ \hline
+\multirow{2}{*}{jes\_Statistical1}      & up   &     0.0007     &     -0.0013     &     0.0014      \\
+                                       & down &     0.0     &     0.0041     &     -0.0006       \\ \hline
+\multirow{2}{*}{jvf}      & up   &     0.0017     &     0.0114     &     0.0003      \\
+                                       & down &     0.0006     &     -0.0045     &     0.0002       \\ \hline
+
+\hline\hline
+\multirow{2}{*}{JER} & \multirow{2}{*}{11(11)} & +0.0072 & +0.0573 & +0.0076\\
+                      &                       & -0.0067 & -0.0707 & -0.0065\\\hline
+
+\hline\hline
+\multirow{2}{*}{Total Syst.} & \multirow{2}{*}{-} & +0.0125 & +0.1011 & +0.0229\\
+                      &                       & -0.0116 & -0.1085 & -0.0223\\\hline
+\end{tabular}
+\end{table}
+
+\end{document}
